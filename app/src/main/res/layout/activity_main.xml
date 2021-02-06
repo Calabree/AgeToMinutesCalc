@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/age" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSelectDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -76,9 +76,9 @@
         android:text="Selected Date"
         android:textSize="18sp"
         android:textColor="@color/lightGrey"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSelectDate"
+        app:layout_constraintStart_toStartOf="@+id/btnSelectDate"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectDate" />
 
     <TextView
         android:id="@+id/ageInMinutes"
